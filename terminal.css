@@ -1,0 +1,33 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #050805;
+  color: #76ff8a;
+  font-family: monospace;
+  display: grid;
+  place-items: center;
+}
+
+.terminal {
+  width: min(900px, 92vw);
+  border: 1px solid #1f5;
+  padding: 2rem;
+  box-shadow: 0 0 30px rgba(70, 255, 120, 0.12);
+  background: rgba(0, 20, 0, 0.85);
+}
+
+input, button {
+  background: #020;
+  color: #76ff8a;
+  border: 1px solid #1f5;
+  padding: 0.6rem 0.8rem;
+  font-family: inherit;
+}
+
+a {
+  color: #9cffab;
+}
